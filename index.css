@@ -232,6 +232,11 @@ h3 {
     width: 240px;
 }
 
+.hide-desktop {
+    display: none;
+    visibility: hidden;
+}
+
 /* section 1 */
 .bg-section1 {
     background-color: rgba(17, 17, 17, 1);
@@ -527,4 +532,234 @@ a {
 .padding-nav-footer {
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+@media only screen and (max-width: 767px) {
+
+    body {
+        width: 100%;
+    }
+
+    nav {
+        display: none;
+        visibility: hidden;
+    }
+
+    header .hide-desktop {
+        width: 23rem;
+        display: block;
+        visibility: visible;
+        color: white;
+    }
+
+    .offcanvas-size {
+        width: 8rem;
+    }
+
+    .wrap {
+        width: 100%;
+    }
+
+    .wrap02 {
+        width: 100%;
+    }
+
+    .header01 {
+        width: 100%;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        margin-right: 0rem;
+    }
+
+    .right-position {
+        width: 375px;
+        justify-content: left;
+        gap: 1rem;
+    }
+
+    .nav-menu {
+        width: 375px;
+        display: inline-block;
+    }
+
+    .text-style-section02 {
+        font-size: 1.5rem;
+    }
+
+    .navbar-section {
+        display: block;
+    }
+
+    .text01-section01 {
+        width: 89%;
+    }
+
+    .text02-section01 {
+        width: 89%;
+    }
+
+    .title-section01 {
+        font-size: 1.5rem;
+    }
+
+    .section-under-navbar {
+        width: 375px;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .section-view01 {
+        flex-direction: column-reverse;
+        gap: 2rem;
+        align-items: start;
+    }
+
+    .section-view02 {
+        justify-content: center;
+    }
+
+    .hide-item {
+        display: none;
+        visibility: hidden;
+    }
+
+    .showItem-phone {
+        display: block;
+        visibility: visible;
+    }
+
+    .reverse-section3 {
+        flex-direction: column-reverse;
+    }
+
+    .text01-section03 {
+        gap: 0;
+    }
+
+    .text02-section03 {
+        gap: 2rem;
+        flex-direction: column-reverse;
+    }
+
+    .text03-section03 {
+        margin-left: 0;
+        width: 19.7rem;
+    }
+
+    .font-text02-section03 {
+        font-size: 1rem;
+    }
+
+    .text01-section04 {
+        margin-left: 0;
+    }
+
+    .view-title04 {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 64%;
+    }
+
+    .view-title04-line {
+        justify-content: left;
+        margin-left: 1rem;
+    }
+
+    .title-section4 {
+        font-size: 1.65rem;
+    }
+
+    .text04-section04 {
+        margin-left: 0;
+    }
+
+    .text02-section04 {
+        justify-content: start;
+        margin-top: 3rem;
+        flex-direction: column;
+        align-items: start;
+        gap: 0;
+    }
+
+    .text-gradient-section04 {
+        width: 14.3rem;
+    }
+
+    .text03-section04 {
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .text04-section04 {
+        flex-direction: column;
+        padding: 3rem 0 2rem;
+        gap: 0;
+    }
+
+    .view-title05 {
+        display: flex;
+        justify-content: left;
+        margin-right: 2rem;
+    }
+
+    .view-title06 {
+        width: 21rem;
+    }
+
+    .img-slide {
+        width: 100%;
+    }
+
+    .text-position {
+        position: absolute;
+        left: 0rem;
+        top: 6.9rem;
+        width: 16rem;
+    }
+
+    .text-style-line {
+        position: absolute;
+        left: 0rem;
+        justify-content: start;
+        font-size: 0.98rem;
+    }
+
+    .fix-size {
+        width: 375px;
+    }
+
+    .border-top-section03 {
+        width: 375px;
+    }
+
+    .border-top-section02 {
+        width: 100%;
+    }
+
+    .text-style-section08 {
+        font-size: 0.93rem;
+    }
+
+    .text-style-section05 {
+        font-size: 0.70rem;
+    }
+
+    .text-style-section06 {
+        font-size: 2rem;
+    }
+
+    .slide {
+        width: 362px;
+    }
+
+    .slideshow-container {
+        width: 375px;
+    }
+
+    /* Footer */
+    .hide-desktop-Footer {
+        display: block;
+        visibility: visible;
+        color: white;
+    }
 }
